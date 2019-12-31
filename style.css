@@ -1,0 +1,692 @@
+	header { 
+    	display: block;
+    	text-align: center;
+    	font-size: 70px;
+    	word-spacing: 100px;
+
+			}
+	head { 
+		display: flex;
+  align-items: center;
+  justify-content: center;
+    
+			}
+	body 	{
+    	background-color: white;
+    	font-family: 'Roboto Mono';font-size: 22px;
+		}	
+
+	h2 	{
+    	color: black;
+   	font-size: 35px;
+   	text-align: center;
+		}
+	/*img	{*/
+ /*  	border: 15px solid #ddd;*/
+ /*   	padding: 5px;*/
+ /*   	width: 300px;*/
+ /*   	border-color: lightblue;*/
+	/*	}*/
+	h1 	{
+    	color: black;
+   	font-size: 60px;
+   	text-align: center;
+   	
+		}
+	a	{
+    	color: black;
+   	font-size: 20px;
+		}
+	h2 	{
+    	color: black;
+		}
+	h3 	{
+    	color: black
+		}
+	h4	{
+    	color: black;
+    	text-align: center;
+    	line-height: auto;
+		}
+	address 	{
+    	color: black;
+   	font-size: 20px;
+		}
+	
+	.w3-container
+		{padding:0.25px 10px
+		}
+	.column {
+    flex: 33.33%;
+    padding: 10px;
+		}
+	.row {
+    display: flex;
+		}
+		
+	.title {
+    display: flex;
+    font-size: 80px;
+		}
+	.close-image {
+	padding: 0px;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	}
+	button {
+	padding: 0px;
+	}
+	logo {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	}
+	footer {
+	background-color: lightblue;
+	}
+	
+	.MainContainer {
+  	perspective: 1px;
+  	transform-style: preserve-3d;
+ 	height: 100vh;
+  	overflow-x: hidden;
+  	overflow-y: scroll;
+	}
+
+	.ParallaxContainer {
+  display: flex;
+  flex: 1 0 auto;
+  position: top;
+  z-index: 5;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  transform: translateZ(-1px) scale(2);
+  background: url(images/parallax4.png);
+}
+
+
+	.ContentContainer {
+	  display: block;
+	  position: relative;
+	  background-color: white;
+	  z-index: 1;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  height: 300px;
+  width: 300px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column1 {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  height: 300px;
+  width: 300px;
+}
+
+.column1 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  height: 300px;
+  width: 300px;
+}
+
+a {
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(50% - 4px);
+  text-decoration: none;
+  color: black;
+}
+
+a.other {
+  display: inline;
+  margin-bottom: inherit;
+  width: inherit;
+
+}
+
+p a {
+  text-decoration: underline;
+width: auto;
+
+}
+
+@media screen and (min-width: 50em) {
+  a {
+    width: calc(25% - 6px);
+  }
+}
+
+a:hover img {
+  transform: scale(1.15);
+}
+
+a.other:hover img {
+  transform: scale(1.00);
+  z-index: -1;
+}
+
+figure {
+  margin: 0;
+  overflow: hidden;
+}
+
+div.flexlist {
+  width:172px;height:180px;
+  padding: 0px 10px 10px 10px;
+  margin-left: -10px;
+  text-align:center;
+
+}
+
+div.flexlist img{
+  width: 120%;
+  height: auto;
+}
+
+
+figcaption {
+  margin-top: 15px;
+}
+
+img {
+  border: none;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  background: #ccc;
+  transition: transform .2s ease-in-out;
+}
+
+/*.p a {*/
+/*  display: inline;*/
+/*  font-size: 13px;*/
+/*  margin: 0;*/
+/*  text-decoration: underline;*/
+/*  color: blue;*/
+/*}*/
+
+/*.p {*/
+/*  text-align: center;*/
+/*  font-size: 13px;*/
+/*  padding-top: 100px;*/
+/*}*/
+/*}*/
+/*.searchbar a {*/
+/*  float: none;*/
+/*  display: block;*/
+/*  color: black;*/
+/*  text-align: center;*/
+/*  padding: 14px 16px;*/
+/*  text-decoration: none;*/
+/*  font-size: 17px;*/
+/*}*/
+
+/* Change the color of links on hover */
+/*.searchbar a:hover {*/
+/*  background-color: #ddd;*/
+/*  color: black;*/
+/*}*/
+
+/* Style the "active" element to highlight the current page */
+/*.searchbar a.active {*/
+/*  background-color: #2196F3;*/
+/*  color: white;*/
+/*}*/
+
+/**{*/
+/*  box-sizing: border-box;*/
+/*}*/
+
+/* Style the search field */
+form.example input[type=text] {
+    vertical-align: center;
+     margin: auto;
+  padding: 20px;
+  font-size: 20px;
+  border: 1px white;
+
+  width: 40%;
+  background: white;
+position: static;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* Style the submit button */
+form.example button {
+   vertical-align: center;
+   margin: auto;
+  width: 15%;
+  padding: 23px;
+  background: #a4c5ea;
+  color: white;
+  font-size: 2-px;
+  border: 1px none;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+    position: static;
+    justify-content: center;
+  align-items: center;
+
+}
+
+form.example button:hover {
+  background: #90aed1;
+    position: static;
+ 
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+    position: static;
+}
+
+
+
+	
+
+			
+	p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+	
+
+		
+.news-grid {
+   height: 200px;
+    width: 400px;
+}
+
+
+/*#menu a:hover {*/
+/*    color: #F90;*/
+/*    background-color: #FFF;*/
+/*     position: fixed;*/
+/*}*/
+/*.banner1 {*/
+	/*position: fixed;*/
+  	/*top: 13%; */
+  	/*width: 100%; */
+  	/*}*/
+	
+/*	br {*/
+/*   display: block;*/
+/*   line-height: 5px;*/
+/*}*/
+
+/*.menu li {*/
+/*    display:block;*/
+/*    float:none;*/
+/*    width: 10%;*/
+/*    position: fixed;*/
+/*}*/
+/*.menu li a {*/
+/*    display:block;*/
+/*    text-align: center;*/
+/*    position: fixed;*/
+/*    width: 10.66%;*/
+/*}*/
+
+/*nav	{*/
+/*    	color: black;*/
+/*   	font-size: 50px;*/
+/*   	word-spacing: 10px;*/
+/*		}*/
+
+/* Style the navigation menu */
+.navbar {
+  width: 100%;
+  background-color: #aac2ed;
+  overflow: auto;
+  position: fixed;
+   margin-top: 75px;
+  height: 50px;
+}
+
+/* Navigation links */
+.navbar a {
+  float: none;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 14.5%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover {
+  background-color: #a4bce8;
+}
+
+/* Style the current/active link */
+.navbar a.active {
+  background-color: #a4bce8;
+}
+.banner {
+	position: fixed; /* Set the navbar to fixed position */
+  	top: 0; /* Position the navbar at the top of the page */
+  	width: 100%; /* Full width */
+	}
+	
+/*	img {*/
+/*  border-radius: 50%;*/
+/*}*/
+
+/*IMAGE CIRCLE*/
+/*.column {*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    position: relative;*/
+/*    overflow: hidden;*/
+/*    border-radius: 50%;*/
+/*}*/
+/*.profile-pic {*/
+/*  display: inline;*/
+/*  margin: 0 auto;*/
+/*  margin-left: -25%; */
+/*  height: 100%;*/
+/*  width: auto;*/
+/*}*/
+
+.navbar1 {
+  width: 100%;
+  background-color: #aac2ed;
+  overflow: auto;
+  position: fixed;
+   margin-top: 55px;
+  height: 48px;
+}
+
+/* Navigation links */
+.navbar1 a {
+  float: none;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 14.5%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+
+}
+
+/* Add a background color on mouse-over */
+.navbar1 a:hover {
+  background-color: #a4bce8;
+}
+
+/* Style the current/active link */
+.navbar1 a.active {
+  background-color: #a4bce8;
+}
+.banner1 {
+	position: fixed; /* Set the navbar to fixed position */
+  	top: 0; /* Position the navbar at the top of the page */
+  	width: 100%; /* Full width */
+	}
+	
+	
+		.p-space {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.navbar2 {
+  width: 100%;
+  background-color: #aac2ed;
+  overflow: auto;
+  position: fixed;
+   /*margin-top: 0px;*/
+margin-top: 76px;
+  height: 48px;
+}
+
+/* Navigation links */
+.navbar2 a {
+  float: none;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 14.5%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+
+}
+
+/* Add a background color on mouse-over */
+.navbar2 a:hover {
+  background-color: #a4bce8;
+}
+
+/* Style the current/active link */
+.navbar2 a.active {
+  background-color: #a4bce8;
+}
+
+.main-container{
+  display: table-cell;
+  vertical-align: center;
+  display: flex;
+  flex-direction:column;
+}
+
+/*.random{*/
+/*  display: table-cell;*/
+/*  vertical-align: center;*/
+/*  display: flex;*/
+/*  flex-direction: row;*/
+/*}*/
+
+h5 {
+ 
+   font-size: 18px;
+   color: white;
+   white-space: pre-line;
+	width: 200px;
+	display:inline-block;
+	box-sizing: border-box;
+}
+
+p6 {
+ 
+   font-size: 30px;
+   color: white;
+   white-space: pre-line;
+	width: 200px;
+	display:inline-block;
+	line-height: 30px;
+	box-sizing: border-box;
+}
+
+p7 {
+   text-align: justify;
+    width: 172px;
+   font-size: 30px;
+   color: black;
+   white-space: pre-line;
+	width: 200px;
+	display:inline-block;
+	line-height: 30px;
+	box-sizing: border-box;
+}
+
+p5 {
+  flex-wrap: wrap;
+  margin: 50px;
+  font-size: 15px;
+}
+
+@import "compass/css3";
+
+.flex-container {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  
+
+}
+
+.flex-item {
+  background-color: #aac2ed;
+  padding: 0px;
+
+  width: 280px;
+  height: 220px;
+  margin-top: 15px;
+    margin-bottom: 0px;
+  align-items: flex-start;
+  line-height: 20px;
+  color: white;
+  font-weight: bold;
+  /*font-size: 10px;*/
+  text-align: center;
+  
+ 
+}
+
+
+
+
+.flex-container1 {
+  padding: 0px;
+  margin: 0px;
+  margin-left: 100px;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  
+
+}
+
+.flex-item1 {
+  background-color: white;
+  padding: 0px;
+
+  width: 280px;
+  height: 220px;
+  margin-top: 0px;
+    margin-bottom: 20px;
+  align-items: center;
+  line-height: 20px;
+  color: white;
+  font-weight: bold;
+  /*font-size: 10px;*/
+  text-align: center;
+  
+ 
+}
+
+
+
+
+/*.flex-container2 {*/
+/*  padding: 0px;*/
+/*  margin: 0px;*/
+/*  margin-left: 100px;*/
+/*  list-style: none;*/
+  
+/*  display: -webkit-box;*/
+/*  display: -moz-box;*/
+/*  display: -ms-flexbox;*/
+/*  display: -webkit-flex;*/
+/*  display: flex;*/
+  
+/*  -webkit-flex-flow: row wrap;*/
+/*  justify-content: space-around;*/
+  
+
+/*}*/
+
+/*.flex-item2 {*/
+/*  background-color: white;*/
+/*  padding: 0px;*/
+
+/*  width: 280px;*/
+/*  height: 220px;*/
+/*  margin-top: 0px;*/
+/*    margin-bottom: 20px;*/
+/*  align-items: center;*/
+/*  line-height: 20px;*/
+/*  color: white;*/
+/*  font-weight: bold;*/
+  /*font-size: 10px;*/
+/*  text-align: center;*/
+  
+ 
+/*}*/
+
+/*.info-flexcontainer {*/
+/*   display: flex;*/
+/*   flex-direction: row;*/
+/*}*/
+
+	.column6 {
+    flex: 33.33%;
+    padding: 10px;
+		}
+
+		.row6 {
+    display: flex;
+    flex-direction: row;
+
+		}
+		
+/*p.big {*/
+/*  line-height: 20px;*/
+/*}*/
+
+/*p5.big {*/
+/*  line-height: 20px;*/
+/*}*/
+
+.candidate-name {
+  font-size: 20px;
+}
+
+.rep-finder {
+  font-family: Courier;
+  color: #aac2ed;
+  background-color:#aac2ed;
+}
